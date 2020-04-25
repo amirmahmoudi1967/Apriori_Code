@@ -4,7 +4,7 @@
 """
 
 import itertools
-def Appriori(ensemble,occurence):
+def Apriori(ensemble,occurence):
     L = []
     #We create the first singleton's list
     countL = {}
@@ -37,4 +37,4 @@ def Appriori(ensemble,occurence):
     return L
 
 t1 = [[1,2,5],[1,3,5],[1,2],[1,2,3,4,5],[1,2,4,5],[2,3,5],[1,5]]
-print(Appriori(t1,3))
+print(Apriori(t1,3))
